@@ -28,6 +28,15 @@ h2 {
   line-height: 1.1;
 }
 
+section{
+    padding: 4em 0;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
 .intro{
     background: #F3EED9;
     padding: 200px 0;
@@ -40,5 +49,17 @@ h2 {
     font-size: 1.125rem;
     letter-spacing: 3px;
     color: #222c2a;
-    margin: 0;
+    margin: 0 0 .25em;
+}
+
+.intro__title{
+    font-size: 60px;
+}
+
+.section__title{
+    font-size: 2.25rem;
+    color: #F3EED9;
+}
+.section__title--dark{
+    color: #824936;
 }
